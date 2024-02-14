@@ -57,10 +57,15 @@ Before running the application locally, ensure you have the following installed:
 
     - In the `backend` directory, create a `.env` file and define the following variables:
 
+    - create a account in cloudinay and get your credentials
+      
         ```
         PORT=5000
         MONGODB_URI=<your-mongodb-uri>
         JWT_SECRET=<your-jwt-secret>
+        CLOUDINARY_CLOUD_NAME = "<>"
+        CLOUDINARY_API_KEY = "<>"
+        CLOUDINARY_API_SECRET = "<>"
         ```
 
 5. **Run the backend server**:
@@ -77,6 +82,8 @@ Before running the application locally, ensure you have the following installed:
     ```
 
 7. **Open your browser** and navigate to `http://localhost:5173` to view the application.
+
+
 
 ## Additional Notes
 
