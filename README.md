@@ -35,7 +35,7 @@ Before running the application locally, ensure you have the following installed:
 2. **Navigate** to the project directory:
 
     ```
-    cd image-gallery-app
+    cd blinkit-assignment-1
     ```
 
 3. **Install dependencies** for both the frontend and backend:
